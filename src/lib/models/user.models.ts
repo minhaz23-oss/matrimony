@@ -12,6 +12,10 @@ const userSchema = new Schema({
     email: {
         type: String,
         required: true
+    },
+    bioData: {
+        type: Object,
+        required: false
     }
 })
 
